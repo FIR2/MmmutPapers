@@ -1,0 +1,125 @@
+// ASSIGNMENT 1
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    int i,j,n,a[20],largest=0,scndlargest=0,post1,post2;
+    cout<<"Enter the size of array";
+    cin>>n;
+    for(i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+
+    //finding largest
+    for(i=0;i<n;i++)
+{
+    if(a[i]>largest)
+    {
+        largest=a[i];
+        post1=i;
+    }
+
+}
+//second largest
+ for(i=0;i<n;i++)
+ {
+     if(a[i]>scndlargest&&a[i]!=largest)
+      
+      {
+          scndlargest=a[i];
+          post2=i;
+      }
+      
+ }
+ cout<<"largest no is."<<largest<<" at position "<<" "<<(post1 + 1)<<endl;
+ cout<<"secondlargest no is."<<scndlargest<<"at position"<<" "<<(post2 + 1);
+ getch();
+ 
+    
+}
+
+
+
+ASSIGNMENT 2
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    int a[100],i,n,element,pos;
+    cout<<"Enter the size of array";
+cin>>n;
+cout<<"Enter Element in array"<<endl;
+for(i=0;i<n;i++)
+{
+    cin>>a[i];
+}
+    cout<<"Enter the position & element"<<endl;
+    cin>>pos>>element;
+    if(pos>n)
+    {
+        cout<<"Insertion is not possible";
+    }
+    else
+     for(i=n;i>=pos;i--)
+        {
+        a[i]=a[i-1];
+        }
+    
+        a[pos]=element;
+        n++;
+    cout<<"Array are"<<endl;
+    for(i=0;i<n;i++)
+    {
+        cout<<" "<<a[i];
+
+    }
+    
+getch();
+
+}
+
+    
+
+ASSIGNMENT 3
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+    int a[100],i,n,pos;
+    cout<<"Enter the size of array";
+cin>>n;
+cout<<"Enter Element in array"<<endl;
+for(i=0;i<n;i++)
+{
+    cin>>a[i];
+}
+    cout<<"Enter the position "<<endl;
+    cin>>pos;
+    if(pos>n)
+    {
+        cout<<"Deletion is not possible";
+    }
+    else
+    {
+     for(i=pos;i<n-1;i++)
+        {
+        a[i]=a[i+1];
+        }
+        cout<<"Array are"<<endl;
+    for(i=0;i<n-1;i++)
+    {
+        cout<<" "<<a[i];
+
+    }
+    }
+}
+
+
+
+
+
+

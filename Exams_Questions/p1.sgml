@@ -1,0 +1,20 @@
+<EMAIL>
+  <SENDER>
+    <PERSON>
+       <FIRSTNAME>Start your codding jaurny</LASTNAME>
+    </PERSON>
+  </SENDER>
+  <BODY>
+    <P>hELLO!.. Welcome to SGML Tutorial</P>
+  </BODY>
+</EMAIL>
+
+<ROOT>
+   <CHILD>
+      <SUPERCHILD>
+          <SUNOFLOW>
+             <PRE>Hello world this is my root </PRE>
+          </SUNOFLOW>
+      </SUPERCHILD>
+   </CHILD>
+</ROOT>

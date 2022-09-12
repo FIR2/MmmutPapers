@@ -1,0 +1,36 @@
+
+    <h1>Create Table</h1>
+    <table border="2px">
+         <caption>Phone numbers</caption>
+           <thead> 
+               <tr>
+                 <th>Name</th>
+                 <th colspan="2">Phone</th>
+               </tr>
+           <thead>
+           <tboady>        
+               <tr>
+                  <td>Jhon</td>
+                  <td>3838389283</td>
+                  <td>5656566565</td>
+               </tr>
+               <tr>
+                   <td>Rohan</td>
+                   <td>9837747473</td>
+                   <td>9764464642</td>
+               </tr>
+               <tr>
+                  <td>Jack</td>
+                  <td>9078563409</td>
+                  <td>9589096789</td>
+               </tr>
+
+            </tboady>
+            <tfoot>
+                 <tr>
+                     <td>@nbsp;</td>
+                     <td>personal</td>
+                     <td>office</td>
+                 </tr>
+            </tfoot>   
+    </table>

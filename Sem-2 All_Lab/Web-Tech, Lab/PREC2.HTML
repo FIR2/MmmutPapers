@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+  
+    <STYLE>
+    </STYLE>
+
+    <script>
+           function Blink()
+	    {
+	     obj=document.getElementById("blink");
+		  
+		  if(obj.style.visibility=="hidden")
+		     {  
+		      obj.style.visibility="visible";
+		      obj.style.color="orange";
+		    }
+		  else
+		    {
+			 obj.style.visibility="hidden";
+          	  obj.style.color="red";		
+			}
+			window.setTimeout("Blink();",550);
+			
+	    }
+    </script>
+</head>
+<body background="1.jpg" onLoad="Blink(); Move();" >
+   <h3 align="center">
+      <font face="lato" size="6">LOGO</font>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <font face="Lato" size="4">
+          <a href="#" style="text-decoration: none;"CLASS="HOVER">HOME</a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" style="text-decoration: none;">VIDEO</a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" style="text-decoration: none;">MENU</a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#" style="text-decoration: none;">GALLARY</a> &nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="#"style="text-decoration: none;">ABOUT US</a>
+      </font>
+   </h3>
+   <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+   <h3 align="center">
+       <font face="Lato" size="" >
+        <!-- <span ID="blink"><h1>HELLO!..</h1></span> -->
+        <span size="6">Welcome To My Website</span>
+       </font>
+   </h3>
+</body>
+</html>
